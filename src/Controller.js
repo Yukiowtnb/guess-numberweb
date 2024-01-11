@@ -18,7 +18,7 @@ import {
     btnListLostGame
 } from "./Model.js";
 
-import {getAllGame, getLossGame, getWinGame, startDB} from "./DataBase.js";
+import {getAllGame, getLossGame, getWinGame, startDB} from "./Database.js";
 
 startGame();
 

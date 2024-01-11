@@ -198,16 +198,16 @@ function getAttempts(id) {
         if (request.result !== undefined) {
             resGetAttempts = "<tr>" +
                 "<th>&raquo;</th>" +
-                "<th colspan=\"2\" style='background-color: #8a2be2;'>№</th>" +
-                "<th colspan=\"2\" style='background-color: #8a2be2;'>Number</th>" +
-                "<th colspan=\"2\" style='background-color: #8a2be2;'>Answer</th>" +
+                "<th colspan=\"2\" style='background-color: #905167;'>№</th>" +
+                "<th colspan=\"2\" style='background-color: #905167;'>Number</th>" +
+                "<th colspan=\"2\" style='background-color: #905167;'>Answer</th>" +
                 "</tr>";
             request.result.forEach(function (entry) {
                 resGetAttempts += "<tr>" +
                     "<td>&raquo;</td>" +
-                    "<td colspan=\"2\" style='background-color: #8a2be2;'>" + entry.numAttempt + "</td>" +
-                    "<td colspan=\"2\" style='background-color: #8a2be2;'>" + entry.getNumber + "</td>" +
-                    "<td colspan=\"2\" style='background-color: #8a2be2;'>" + entry.ansComp + "</td>" +
+                    "<td colspan=\"2\" style='background-color: #905167;'>" + entry.numAttempt + "</td>" +
+                    "<td colspan=\"2\" style='background-color: #905167;'>" + entry.getNumber + "</td>" +
+                    "<td colspan=\"2\" style='background-color: #905167;'>" + entry.ansComp + "</td>" +
                     "</tr>";
             });
         } else {

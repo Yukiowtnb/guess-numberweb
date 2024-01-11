@@ -19,7 +19,7 @@ import {
 
 import {
     addNewGame
-} from "./DataBase.js";
+} from "./Database.js";
 
 export let userName;
 
@@ -39,7 +39,7 @@ export function informationOutput() {
 
         blockInformation.style.display = 'flex';
 
-        textInfo.innerHTML = "Hello,<b>" + userName + "</b> Let's play the game \"Guess Number\"." +
+        textInfo.innerHTML = "Hello, <b>" + userName + "</b>! Let's play the game \"Guess Number\"." +
             "  I guess the number<b> from 1 to " + maxNum + "." +
             "</b> Try to guess this number for <b>" + numAttempt + "</b> attempts.";
     }
